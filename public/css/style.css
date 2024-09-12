@@ -9392,6 +9392,10 @@ body {
   color: #596882;
   line-height: 1;
   margin-right: 15px; }
+  .az-header-search-link:hover,
+  .az-header-search-link i:hover{
+    color: #169e97;
+}
 
 .az-header-arrow {
   font-size: 27px;
@@ -9401,7 +9405,7 @@ body {
   .az-header-arrow i {
     line-height: 0; }
   .az-header-arrow:hover, .az-header-arrow:focus {
-    color: #596882; }
+    opacity: .8; }
 
 .az-header-message,
 .az-header-notification {
@@ -9591,7 +9595,7 @@ body {
         line-height: .9; }
     .az-profile-menu .dropdown-item:hover, .az-profile-menu .dropdown-item:focus {
       background-color: transparent;
-      color: #5b47fb; }
+      opacity: .8; }
     .az-profile-menu .dropdown-item + .dropdown-item {
       border-top: 1px dotted #b4bdce; }
     .az-profile-menu .dropdown-item:last-child {
