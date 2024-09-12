@@ -1,0 +1,45 @@
+.landing-top .swal-modal-example {
+  transform: none;
+  opacity: 1;
+  height: 292px;
+  width: 409px;
+  margin: 20px;
+  background-color: #fff;
+  box-shadow: 0 5px 22px 0 rgba(0,0,0,0.2);
+  border-radius: 8px;
+  margin-top: 59px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+  transition: height 0.3s;
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: 0;
+}
+@media all and (max-width: 1000px) {
+  .landing-top .swal-modal-example {
+    position: relative;
+    display: block;
+    margin: 20px auto;
+  }
+}
+@media all and (max-width: 450px) {
+  .landing-top .swal-modal-example {
+    width: 100%;
+  }
+}
+.landing-top .swal-modal-example[data-type="success"] {
+  height: 292px;
+}
+.landing-top .swal-modal-example[data-type="warning"] {
+  height: 325px;
+}
+.landing-top .swal-modal-example .swal-title {
+  padding-top: 10px;
+}
+.landing-top .swal-modal-example .swal-text {
+  color: rgba(0,0,0,0.48);
+  margin-top: 6px;
+}
